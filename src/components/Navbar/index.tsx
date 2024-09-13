@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Logo from "../../../public/assets/images/Logo.png";
+import Button from '../Button';
 
 
 const NavLink = [
@@ -48,10 +49,16 @@ const Navbar = () => {
         })}
     </ul>
     <div>
-        <button className="border-[1px] border-black py-2 px-4 font-semibold  text-sm lg:text-base
+        <Button 
+            value='Try For Free'
+            shadow='shadow-[5px_5px_0px_0px]'
+            bg_color='bg-white'
+            text_color='text-black'
+        />
+        {/* <button className="border-[1px] border-black py-2 px-4 font-semibold  text-sm lg:text-base
             shadow-[5px_5px_0px_0px]">
             Try For Free
-        </button>
+        </button> */}
     </div>
 
   </div>
