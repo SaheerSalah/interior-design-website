@@ -8,11 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        // 'xs': { 'min': '250px', 'max': '410px' },
+      },
       colors: {},
       container: {
         center:true,
         padding:{
           DEFAULT: "1rem",
+          // "xs":"0.5rem",
           sm:"2rem",
           lg:"4rem",
           xl:"5rem",

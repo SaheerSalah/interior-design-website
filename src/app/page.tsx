@@ -7,7 +7,6 @@ export default function Home() {
     <div className="overflow-x-hidden font-[family-name:var(--font-geist-sans)]">
       <Navbar />
       <Hero />
-      <div>welcome to interior design website</div>
     </div>
   );
 }

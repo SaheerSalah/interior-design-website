@@ -2,18 +2,16 @@ import React from 'react';
 
 interface Props {
     value: string;
-    shadow: string; 
     bg_color: string;
-    text_color: string;
+    style: string;
 }
 
-const Button = ({value, shadow, bg_color, text_color}:Props) => {
+const Button = ({value, bg_color,style}:Props) => {
   return (
-    <button className={`border-[1px] border-black py-2 px-4 font-semibold  text-sm lg:text-base
-        ${shadow}
-        ${bg_color}
-        ${text_color}
-        `}>
+    <button className={`${style} border-[1px] border-black py-2 px-4  font-semibold  text-sm lg:text-base
+        ${bg_color==="bg-black"?"bg-black text-white  shadow-[5px_5px_0px_0px_#6b7280]":
+          "text-black  bg-white  shadow-[5px_5px_0px_0px] hover:bg-black hover:text-white hover:shadow-[5px_5px_0px_0px_#6b7280]"}`}
+    >
         {value}
     </button>
   )
