@@ -5,7 +5,7 @@ import Button from '../Button';
 
 const Hero = () => {
   return <>
-  <div className='container pt-16 md:pt-7 lg:pt-10 '>
+  <div className='container py-16 md:pt-7 lg:pt-10 '>
     <div className='grid grid-cols-1 gap-10 md:grid-cols-2 md:min-h-[500px] '>
         <div className=' flex flex-col justify-center gap-6 
              text-center md:text-left px-10 md:pr-0 lg:pr-10 xl:pr-44 pt-5 :pt-0 '>
