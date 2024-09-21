@@ -28,8 +28,7 @@ const Hero = () => {
             <Image 
                 src={hero}
                 alt="hero image"
-                className='object-cover w-[80%] md:w-[100%]'
-                
+                className='object-cover w-[80%] md:w-[100%]'  
             />
         </div>
     </div>
