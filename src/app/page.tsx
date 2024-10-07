@@ -3,6 +3,10 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
 import Services from "@/components/Services";
+import Banner from "@/components/Banner";
+import Banner2 from "@/components/Banner2";
+import Testimonial from "@/components/Testimonial";
+import Newsletter from "@/components/Newsletter";
 
 export default function Home() {
   return (
@@ -11,6 +15,10 @@ export default function Home() {
       <Hero />
       <Brands />
       <Services />
+      <Banner />
+      <Banner2 />
+      <Testimonial />
+      <Newsletter />
     </div>
   );
 }
