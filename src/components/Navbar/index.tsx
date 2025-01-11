@@ -44,7 +44,7 @@ const Navbar = () => {
         <ul className="hidden lg:flex">
           {NavLink.map((link) => {
             return (
-              <a href={link.link} className="mx-4 text-base font-semibold">
+              <a key={link.id} href={link.link} className="mx-4 text-base font-semibold">
                 {link.title}
               </a>
             );
@@ -52,10 +52,6 @@ const Navbar = () => {
         </ul>
         <div>
           <Button value="Try For Free" bg_color="bg-white" style="" />
-          {/* <button className="border-[1px] border-black py-2 px-4 font-semibold  text-sm lg:text-base
-                shadow-[5px_5px_0px_0px]">
-                Try For Free
-            </button> */}
         </div>
       </motion.div>
     </>

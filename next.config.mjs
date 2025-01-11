@@ -2,6 +2,6 @@
 const nextConfig = {};
 export default {
     images: {
-      domains: ['i.pravatar.cc'], // أضف النطاق المسموح به
+      domains: ['i.pravatar.cc'], 
     },
   };

@@ -9,7 +9,7 @@ import { SlideLeft, SlideUp } from "@/animation/animate";
 const Hero = () => {
   return (
     <>
-      <div className="container py-16 md:pt-7 lg:pt-10 ">
+      <div className="container md:py-16 py-4 md:pt-7 lg:pt-10 ">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:min-h-[500px] ">
           <div
             className=" flex flex-col justify-center gap-6 
@@ -32,7 +32,8 @@ const Hero = () => {
               Bring your dream to life with one-on-one design help & hand picked
               products tailored to your style, space and budget.
             </motion.p>
-            <div className="space-x-4">
+            {/* space-x-0 */}
+            <div className="sm:space-x-4 space-x-1 space-y-2">
               <Button
                 value="Get started"
                 bg_color="bg-black"

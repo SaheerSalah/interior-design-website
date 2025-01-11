@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        // 'xs': { 'min': '250px', 'max': '410px' },
+        
+        // 'xs': { 'min': '250px', 'max': '360px' },
       },
       colors: {},
       container: {
